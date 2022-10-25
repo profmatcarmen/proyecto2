@@ -1,0 +1,18 @@
+#contenedor{
+    display:flex;
+    justify-content: flex-end;
+    align-items:stretch;
+
+}
+
+.tarjeta{
+    background-color:rgb(75, 37, 89) ;/*Ponemos color con rgb*/
+    height: 200px;/*altura*/
+    width: 100px;/*ancho*/
+    padding: 10px;/*Relleno*/
+    border: 3px solid #6600cc;
+    margin:15px;/*Separar las tarjetas*/
+}
+.tarjeta img{
+    width:100%; /*Hace que la imagen se adapte al tamaño de la tarjeta*/
+}
